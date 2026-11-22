@@ -1,0 +1,5 @@
+name: DeepSeekChat
+version: 1.0.0
+main: com.deepseekchat.DeepSeekChat
+author: DeepSeekChat
+description: AI对话系统 - 接入 DeepSeek V4-Flash (BungeeCord/Waterfall)

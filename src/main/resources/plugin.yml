@@ -1,0 +1,17 @@
+name: DeepSeekChat
+version: 1.0.0
+main: com.deepseekchat.bukkit.BukkitPlugin
+# 按 1.8.8 API 编译, 兼容 1.8+; 1.13 以下服务器会忽略该字段
+api-version: 1.13
+author: DeepSeekChat
+description: DeepSeek AI 对话 - 子服端 (数据授权/Agent指令执行)
+commands:
+  dsauth:
+    description: 管理游戏数据授权 (Agent功能)
+    usage: /dsauth [位置|插件|区块|背包|on|off]
+    permission: deepseek.use
+    permission-message: 你没有权限使用
+permissions:
+  deepseek.use:
+    description: 允许使用 DeepSeek AI 相关命令
+    default: true
